@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ImageJsp
-    Created on : 16 nov. 2022, 18:46:14
-    Author     : PRINCIPAL
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

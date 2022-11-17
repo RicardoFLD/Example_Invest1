@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Historia
-    Created on : 16 nov. 2022, 18:53:03
-    Author     : PRINCIPAL
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
