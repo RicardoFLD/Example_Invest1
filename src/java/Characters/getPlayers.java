@@ -46,7 +46,7 @@ public class getPlayers extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet ProductsServlet</title>");
+            out.println("<title>Servlet Players</title>");
             out.println("<script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js\" integrity=\"sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3\" crossorigin=\"anonymous\"></script>");
             out.println("<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js\" integrity=\"sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz\" crossorigin=\"anonymous\"></script>");
             out.println("<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT\" crossorigin=\"anonymous\">");
@@ -66,7 +66,7 @@ public class getPlayers extends HttpServlet {
             out.println("</thead>");
             out.println("<tbody>");
             while (resultSet.next()) {
-                out.println("<tr onclick=\"window.location.href = 'loadplayerServlet?Name=" + resultSet.getString("Name") + "';\">");
+                out.println("<tr onclick=\"window.location.href = 'loadPlayer?Name=" + resultSet.getString("Name") + "';\">");
                 out.println("<td>" + resultSet.getString("Name") + "</td>");
                 out.println("<td>" + resultSet.getString("Race") + "</td>");
                 out.println("<td>" + resultSet.getInt("Age") + "</td>");
