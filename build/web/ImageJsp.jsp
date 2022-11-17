@@ -6,6 +6,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Mapa del mundo</title>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
     <body>
                 <nav class="navbar navbar-dark bg-dark fixed-top">
@@ -32,12 +35,12 @@
               Mundo
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="Historia">Historia</a></li>
-              <li><a class="dropdown-item" href="ImageJsp">Mapa</a></li>
+                <li><a class="dropdown-item" href="Historia.jsp">Historia</a></li>
+              <li><a class="dropdown-item" href="ImageJsp.jsp">Mapa</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="RulesJsp">Reglas</a></li>
+              <li><a class="dropdown-item" href="RulesJsp.jsp">Reglas</a></li>
             </ul>
           </li>
         </ul>
@@ -50,6 +53,6 @@
              <img src="../Captura de pantalla 2022-11-16 181336.png" alt=""/>
             </div>
      </div>
-        <a class=\"btn\" style='float: left' href=\"index.html\">Go back</a>");
+        
     </body>
 </html>
